@@ -43,6 +43,7 @@ npm i
 ### Current test results
 While the initial tests are intended to verify that the contract functions correctly, our focus will be on the last test, which forces a token transfer to revert. The loggs of the transaction for this tests show:
 ```bash
+{
   name: 'StatusError',
   tx: '0x6e71173ce7a102d0d8a3c43529202b65fab2f7f50346789d6debb3d7b35777d0',
   receipt: {
